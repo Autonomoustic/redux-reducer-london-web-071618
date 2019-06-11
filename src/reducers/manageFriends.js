@@ -1,6 +1,6 @@
 
 export function manageFriends (state, action) {
-  console.log(action)
+  console.log(state.friends)
   switch (action.type) {
     case 'ADD_FRIEND':
       return { friends: [...action.friend, ...state.friends] }
