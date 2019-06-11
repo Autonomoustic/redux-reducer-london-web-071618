@@ -1,5 +1,5 @@
 export function manageFriends (action, state) {
-  case (action.type) {
+  switch (action.type) {
     case 'SOME':
       return
     default :
