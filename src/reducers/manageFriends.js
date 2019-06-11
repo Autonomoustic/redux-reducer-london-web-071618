@@ -7,7 +7,7 @@ export function manageFriends (state, action) {
       return { friends: state.friends }
     case 'REMOVE_FRIEND':
       console.log(state.friends.filter(friend => friend != action.friend))
-      return newState
+      return
     default :
       return state
   }
