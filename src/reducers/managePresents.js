@@ -3,7 +3,7 @@ export function managePresents (action, state) {
     case 'INCREASE':
       return state + 1
     default:
-      return statelearn
+      return state
       
   }
 }
