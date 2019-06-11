@@ -1,4 +1,4 @@
-export function managePresent (state, state) {
+export function managePresent (action, state) {
   switch (action.type) {
     case 'INCREASE':
       return state + 1
