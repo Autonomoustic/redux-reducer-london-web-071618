@@ -1,4 +1,4 @@
-export function manageFriends (action, state) {
+export function manageFriends (state, action) {
   switch (action.type) {
     case 'SOME':
       return
