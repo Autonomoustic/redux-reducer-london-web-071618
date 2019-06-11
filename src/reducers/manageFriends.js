@@ -1,7 +1,7 @@
 export function manageFriends (action, state) {
   case (action.type) {
     case :
-      return 
+      return state 
     default :
       return state
   }
